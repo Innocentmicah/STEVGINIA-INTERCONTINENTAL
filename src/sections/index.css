@@ -1,0 +1,85 @@
+/* NAVIGTION STYLING  */
+.nav-container{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deskRespons{
+    height: 100%;
+    width: 90%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mobileRespons{
+    display: none;
+}
+.nav-logo-contain{
+    width: 100px;
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+.nav-logo-contain>img{
+    width: 100%;
+    height: 100%;
+}
+nav>ul{
+    gap: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    list-style: none;
+}
+.mobileBurggerContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+.mobileBugger{
+    width: 45px;
+    height: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+.respNavCon{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    padding-right: 10px;
+    overflow: scroll;
+}
+.respNavCon>ul{
+    list-style: none;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+.respNavCon>ul>li{
+    margin-top: 30px;
+    border-bottom: 2px solid white;
+}
+.respNavCon>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width: 340px) and (max-width: 750px) {
+    .deskRespons{
+        display: none;
+    }
+    .mobileRespons{
+        display: block;
+        width: 80px;
+    }
+}

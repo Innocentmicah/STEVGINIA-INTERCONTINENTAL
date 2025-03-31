@@ -1,0 +1,17 @@
+.backgroundCover{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #0000008f;
+    /* color: white; */
+  }
+  .rootContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .rootBody{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
